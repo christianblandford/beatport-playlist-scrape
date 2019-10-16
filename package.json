@@ -1,7 +1,7 @@
 {
     "name": "scrape_beatport_playlist",
-    "version": "1.0.2",
-    "description": "Scrapes a beatport playlist",
+    "version": "1.0.3",
+    "description": "Scrapes Beatport Playlist",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,7 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/christianblandford/beatport-playlist-scrape"
-    }
+    },
+    "keywords": ["beatport", "playlist", "api", "scrape", "music", "genre"]
 
 }
