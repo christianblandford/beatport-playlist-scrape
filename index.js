@@ -1,14 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-console.log(process.argv)
-let url = '';
-if (process.argv[2]) {
-    url = process.argv[2];
-} else {
-    url = 'https://www.beatport.com/genre/tech-house/11/top-100';
-}
 
-let getTracks = function(callback) {
+let getTracks = function(url, callback) {
     let tracks = [];
     axios.get(url)
         .then(response => {
@@ -28,6 +21,4 @@ let getTracks = function(callback) {
         })
 }
 
-getTracks(function(tracks) {
-    console.log(tracks);
-});
+module.exports = getTracks;
