@@ -7,6 +7,10 @@ if (process.argv[2]) {
     url = 'https://www.beatport.com/genre/tech-house/11/top-100';
 }
 
-getTracks(url, function(data) {
-    console.log(data);
-})
+getTracks(url)
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.log(error);
+    })
