@@ -1,4 +1,4 @@
-# beatport-scrape
+# scrape_beatport_playlist
  Scrapes tracks, artists, and genres from a beatport playlist URL
 
 # NPM
