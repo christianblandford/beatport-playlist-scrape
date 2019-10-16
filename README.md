@@ -16,5 +16,24 @@ getTracks(url)
 
 # Example Output:
 ```
-[{ id: '12630900',                                                                                                         title: 'Sahara',                                                                                                        artist: 'MD Project',                                                                                                   genre: 'Deep House' },                                                                                                { id: '12630901',                                                                                                         title: 'Biosphere',                                                                                                     artist: 'Widow Tongue',                                                                                                 genre: 'Deep House' },                                                                                                { id: '12630991',                                                                                                         title: 'Loop Think',                                                                                                    artist: 'Level Of Encore',                                                                                              genre: 'Deep House' }]
+[
+    {
+        "id": "12630900a",
+        "title": "Sahara",
+        "artist": "MD Project",
+        "genre": "Deep House"
+    },
+    {
+        "id": "12630901",
+        "title": "Biosphere",
+        "artist": "Widow Tongue",
+        "genre": "Deep House"
+    },
+    {
+        "id": "12630991",
+        "title": "Loop Think",
+        "artist": "Level Of Encore",
+        "genre": "Deep House"
+    }
+]
 ```
