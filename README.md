@@ -11,7 +11,7 @@ npm install scrape_beatport_playlist
 
 # Usage:
 ```
-const getTracks = require(beatport-playlist-scrape)
+const getTracks = require(scrape_beatport_playlist)
 
 getTracks(url)
     .then(data => {
